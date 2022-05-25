@@ -1,0 +1,24 @@
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (max-width: 360px) {
+.services__img {
+    width: 100px;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+
+	.services__container {
+	    grid-template-columns: repeat(2, 1fr);
+  	}
+	}
+
+
+/* For large devices */
+@media screen and (min-width: 968px) {
+
+	.services__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+	}
